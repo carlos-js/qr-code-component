@@ -22,8 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://654e91044389ab1c5a0f58bc--preeminent-gumdrop-1d4a5d.netlify.app/)
 
 ## My process
 
