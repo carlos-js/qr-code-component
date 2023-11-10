@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: var(--Light-gray);
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.QR-code {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--White);
+    text-align: center;
+}
+
+.QR-code__image {
+    border-radius: 20px;
+}
+
+.QR-code__title {
+    font-size: 22px;
+    color: var(--Dark-blue);
+    margin: 20px 0;
+}
+
+.QR-code__description {
+    font-size: 15px;
+    font-size: 400;
+    color: var(--Grayish-blue);
+    margin-bottom: 30px;
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(152, 45%, 44%); 
+}
